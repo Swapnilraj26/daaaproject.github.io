@@ -3,39 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Project Portfolio</title>
+    <title>Slum Area Problems and Solutions</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Your GitHub Project Portfolio</h1>
-        <p>Explore my projects and contributions on GitHub!</p>
+        <h1>Slum Area Problems and Solutions</h1>
+        <p>A project focused on identifying issues in slum areas and proposing practical solutions using technology.</p>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm <strong>[SWAPNIL RAJ]</strong>, a passionate developer who loves coding and building projects.</p>
-        <p>Check out my GitHub profile: <a href="https://github.com/Swapnilraj26" target="_blank">https://github.com/your-username</a></p>
+    <section id="project-overview">
+        <h2>Project Overview</h2>
+        <p>Slum areas face numerous challenges such as lack of basic amenities, sanitation issues, and inadequate housing. This project aims to provide practical, tech-driven solutions to improve the living conditions in these areas.</p>
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Project 1: [SLUM AREAS PROBLEMS AND SOLUTIONS]</h3>
-            <p>Description: [Deals with the problems faced by slum areas people and finding the way to deal with it]</p>
-            <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
-        </div>
-        <div class="project">
-            <h3>Project 2: [Project Name]</h3>
-            <p>Description: [Brief description of the project]</p>
-            <a href="https://github.com/your-username/project2" target="_blank">View on GitHub</a>
-        </div>
-        <!-- Add more projects as needed -->
+    <section id="problems">
+        <h2>Identified Problems in Slum Areas</h2>
+        <ul>
+            <li>Poor sanitation and hygiene facilities</li>
+            <li>Inadequate access to clean water</li>
+            <li>Lack of proper housing and infrastructure</li>
+            <li>Limited access to healthcare and education</li>
+            <li>Unemployment and poverty</li>
+        </ul>
+    </section>
+
+    <section id="solutions">
+        <h2>Proposed Solutions</h2>
+        <ol>
+            <li>Implement a smart sanitation system using IoT devices to monitor and maintain cleanliness.</li>
+            <li>Provide water filtration units to ensure access to clean drinking water.</li>
+            <li>Develop affordable and durable housing solutions using eco-friendly materials.</li>
+            <li>Set up mobile healthcare units to provide medical assistance.</li>
+            <li>Introduce vocational training programs to reduce unemployment.</li>
+        </ol>
+    </section>
+
+    <section id="code-snippet">
+        <h2>Code Snippet</h2>
+        <p>Below is a sample code snippet from the project, demonstrating a basic IoT solution to monitor water levels in a tank:</p>
+        <pre>
+<code>
+// IoT Water Level Monitoring System
+const waterLevelSensor = {
+    maxLevel: 100,
+    currentLevel: 75,
+    checkWaterLevel: function() {
+        if (this.currentLevel < 20) {
+            console.log("Warning: Water level is critically low!");
+        } else {
+            console.log("Water level is sufficient.");
+        }
+    }
+};
+
+waterLevelSensor.checkWaterLevel();
+</code>
+        </pre>
     </section>
 
     <footer>
-        <p>&copy; 2025 [SWAPNIL RAJ]. All Rights Reserved.</p>
+        <p>&copy; 2025 [Your Name]. All Rights Reserved.</p>
+        <p>View the full project on GitHub: <a href="https://github.com/your-username/slum-area-solutions" target="_blank">GitHub Repository</a></p>
     </footer>
 </body>
 </html>
-<a href="about.html">About Me</a>
